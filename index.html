@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML and CSS solution</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,17 +13,19 @@
 
 <body>
 
-    <div class="container">
-        <div class="row">
+    <main class="container">
+        <article class="row">
             <div class="col-lg-9">
                 <div class="row">
                     <div class="col-lg-8 mb-4">
                         <div class="card p-4 color">
                             <div class="meta-item ml-auto">
                                 <div class="d-flex pt-3">
-                                    <div><img src="images/image-daniel.jpg" width="40"
-                                            class="rounded-circle border border-dark-subtle border-3 border-opacity-50">
-                                    </div>
+                                    <figure>
+                                        <img src="images/image-daniel.jpg" width="40"
+                                            class="rounded-circle border border-dark-subtle border-3 border-opacity-50"
+                                            alt="Daniel Clifford">
+                                    </figure>
                                     <div class="ms-4">
                                         <span class="name text-white">Daniel Clifford</span>
                                         <p class="para text-white-50">Verified Graduate</p>
@@ -59,9 +62,11 @@
                         <div class="card p-4 color1">
                             <div class="meta-item ml-auto">
                                 <div class="d-flex pt-3">
-                                    <div><img src="images/image-jonathan.jpg" width="40"
-                                            class="rounded-circle border border-dark-subtle border-3 border-opacity-50">
-                                    </div>
+                                    <figure>
+                                        <img src="images/image-jonathan.jpg" width="40"
+                                            class="rounded-circle border border-dark-subtle border-3 border-opacity-50"
+                                            alt="Jonathan Walters">
+                                    </figure>
                                     <div class="ms-4">
                                         <span class="name text-white">Jonathan Walters</span>
                                         <p class="para text-white-50">Verified Graduate</p>
@@ -86,9 +91,11 @@
                         <div class="card rounded border-0 shadow-sm p-4 color2">
                             <div class="meta-item ml-auto">
                                 <div class="d-flex pt-3">
-                                    <div><img src="images/image-jeanette.jpg" width="40"
-                                            class="rounded-circle border border-dark-subtle border-3 border-opacity-50">
-                                    </div>
+                                    <figure>
+                                        <img src="images/image-jeanette.jpg" width="40"
+                                            class="rounded-circle border border-dark-subtle border-3 border-opacity-50"
+                                            alt="Jeanette Harmon">
+                                    </figure>
                                     <div class="ms-4">
                                         <span class="name text-black">Jeanette Harmon</span>
                                         <p class="para text-black-50">Verified Graduate</p>
@@ -110,9 +117,11 @@
                         <div class="card p-4 color3">
                             <div class="meta-item ml-auto">
                                 <div class="d-flex pt-3">
-                                    <div><img src="images/image-patrick.jpg" width="40"
-                                            class="rounded-circle border border-light-subtle border-3 border-opacity-50">
-                                    </div>
+                                    <figure>
+                                        <img src="images/image-patrick.jpg" width="40"
+                                            class="rounded-circle border border-light-subtle border-3 border-opacity-50"
+                                            alt="Patrick Abrams">
+                                    </figure>
                                     <div class="ms-4">
                                         <span class="name text-white">Patrick Abrams</span>
                                         <p class="para text-white-50">Verified Graduate</p>
@@ -144,8 +153,11 @@
                 <div class="card p-4 color2">
                     <div class="meta-item ml-auto">
                         <div class="d-flex pt-3">
-                            <div><img src="images/image-kira.jpg" width="40"
-                                    class="rounded-circle border border-white-subtle border-2 border-opacity-50"></div>
+                            <figure>
+                                <img src="images/image-kira.jpg" width="40"
+                                    class="rounded-circle border border-white-subtle border-2 border-opacity-50"
+                                    alt="Kira Whittle">
+                            </figure>
                             <div class="ms-4">
                                 <span class="name text-black">Kira Whittle</span>
                                 <p class="para text-black-50">Verified Graduate</p>
@@ -180,8 +192,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </article>
+    </main>
 </body>
 
 </html>
