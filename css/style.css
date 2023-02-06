@@ -41,6 +41,9 @@ body {
     background-color: var(--very-dark-blackish-blue);
 }
 
+.not-visible {
+    visibility: hidden;
+}
 
 @media (max-width: 576px) {
     body {
